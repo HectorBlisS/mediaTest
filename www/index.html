@@ -26,17 +26,30 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Prueba Media</title>
+        
+        <style type="text/css">
+        .hide{
+        display: none
+        }
+        </style>
+        
     </head>
     <body>
         <div class="app">
-            <h1>FixTeR Dev.</h1>
-            <a href="#" id="playbutton" onclick="dalePlay();" class="hide"><img src="img/play.png" style="width:10%"></a>
-            <a href="#" id="stopbutton" onclick="dalePlay();" class=""><img src="img/pause.png" style="width:10%"></a>
-            <div id="audio_position"></div>
+            <h1>FixTeR</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connectando</p>
-                <p class="event received">App Lista!</p>
+                <p id="audio_position" class="event received"></p>
             </div>
+        <a id="playbutton" class="hide" onclick="dalePlay();">
+            <img src="img/play.png" style="width:30%">
+        </a>
+        <a id="stopbutton" class="" onclick="pauseAudio();">
+            <img src="img/pause.png" style="width:30%">
+        </a>
+         <a id="mp3" class="" onclick="playAudio('http://fixter.org/mp3.mp3');">
+            <img src="img/play.png" style="width:30%">
+        </a>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

@@ -49,9 +49,13 @@ var app = {
     }
 };
 
-app.initialize();
+
 
    // Audio player
+function dalePlay(){
+ playAudio('http://radio.netyco.com:8032');
+ //   playAudio('http://fixter.org/micancion.mp3');
+}
         //
         var my_media = null;
         var mediaTimer = null;
@@ -129,3 +133,4 @@ document.getElementById("playbutton").classList.remove('hide');
         function setAudioPosition(position) {
             document.getElementById('audio_position').innerHTML = position;
         }
+app.initialize();
