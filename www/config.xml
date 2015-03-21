@@ -4,13 +4,13 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
         id        = "org.fixter.plano"
 		versionCode="1"
-		version   = "1">
-    <name>Plano</name>
+		version   = "2">
+    <name>Plano Musical</name>
     <description>
-      Testing Media
+      Testing Media for Android
     </description>
     <author email="contacto@fixter.org" href="http://fixter.org">
-        FixTeR
+        FixTeR BlisS
     </author>
     
         <!-- Core plugins -->
