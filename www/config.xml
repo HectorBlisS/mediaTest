@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:gap="http://phonegap.com/ns/1.0"
+        id        = "org.fixter.plano"
+		versionCode="1"
+		version   = "1">
+    <name>Plano</name>
+    <description>
+      Testing Media
+    </description>
+    <author email="contacto@fixter.org" href="http://fixter.org">
+        FixTeR
+    </author>
+    
+        <!-- Core plugins -->
+
+    <gap:plugin name="org.apache.cordova.media" />
+
+    
+
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="handset" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="preferExternal" />
+    
+    <icon src="icon_57.png" gap:platform="ios" width="57" height="57" />
+		<icon src="icon_72.png" gap:platform="ios" width="72" height="72" />
+		<icon src="icon_114.png" gap:platform="ios" width="114" height="114" />
+		<icon src="icon_144.png" gap:platform="ios" width="144" height="144" />
+		<icon src="icon_76.png" gap:platform="ios" width="76" height="76" />
+		<icon src="icon_120.png" gap:platform="ios" width="120" height="120" />
+		<icon src="icon_152.png" gap:platform="ios" width="152" height="152" />
+		<icon src="icon.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="icon.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="icon.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="icon.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="icon.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="icon.png" gap:platform="android" gap:density="xxxhdpi" />
+		<icon src="icon.png" gap:platform="winphone" gap:role="background" />
+		<icon src="icon.png" />
+		<gap:splash src="splash_320-480.png" gap:platform="ios" width="320" height="480" />
+		<gap:splash src="splash_320-480_.png" gap:platform="ios" width="480" height="320" />
+		<gap:splash src="splash_640-960.png" gap:platform="ios" width="640" height="960" />
+		<gap:splash src="splash_640-960_.png" gap:platform="ios" width="960" height="640" />
+		<gap:splash src="splash_640-1136.png" gap:platform="ios" width="640" height="1136" />
+		<gap:splash src="splash_640-1136_.png" gap:platform="ios" width="1136" height="640" />
+		<gap:splash src="splash_hd.png" gap:platform="ios" width="768" height="1024 " />
+		<gap:splash src="splash_hd_.png" gap:platform="ios" width="1024" height="768" />
+		<gap:splash src="splash_retina.png" gap:platform="ios" width="1536" height="2048" />
+		<gap:splash src="splash_retina_.png" gap:platform="ios" width="2048" height="1536" />
+		<gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="splash.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="splash_hd.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="splash.png" gap:platform="winphone" />
+		<gap:splash src="splash.png" />
+
+    
+
+        <!-- Pushwoosh plugin -->
+
+    
+        <!--Plugin Segundo Plano solo Android-->
+    <!--<gap:plugin name="de.appplant.cordova.plugin.background-mode" /> -->
+
+ 
+    
+    <access origin="*" browserOnly="true"/>
+   <!-- <access origin="*.pushwoosh.com"/> -->
+
+</widget>
+
