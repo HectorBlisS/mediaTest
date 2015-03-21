@@ -35,6 +35,27 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         dalePlay();
+        
+            // Android customization
+    cordova.plugins.backgroundMode.setDefaults({ ticker:'FixTeR: Probando Audio', title:'FixTeR BlisS',text:'Probando Audio Background'});
+    // Enable background mode
+    cordova.plugins.backgroundMode.enable();
+    // Called when background mode has been activated
+    cordova.plugins.backgroundMode.onactivate = function () {
+        
+                 
+       setTimeout(function () {
+           location.reload(true);
+           cordova.plugins.backgroundMode.configure({
+                title:'FixTeR',
+                text:'Escuchas Prueba de Audio',
+                ticker:'FixTeR BlisS'
+            });   
+        }, 70000);
+        
+       
+    }
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

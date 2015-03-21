@@ -76,7 +76,7 @@
 
     
         <!--Plugin Segundo Plano solo Android-->
-    <!--<gap:plugin name="de.appplant.cordova.plugin.background-mode" /> -->
+    <gap:plugin name="de.appplant.cordova.plugin.background-mode" />
 
  
     
