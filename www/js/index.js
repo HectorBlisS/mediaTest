@@ -45,7 +45,6 @@ var app = {
         
                  
        setTimeout(function () {
-           location.reload(true);
            cordova.plugins.backgroundMode.configure({
                 title:'FixTeR',
                 text:'Escuchas Prueba de Audio',
